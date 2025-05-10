@@ -1,0 +1,93 @@
+  #videoFondo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    z-index: -1; /* Para que esté detrás del contenido */
+  }
+
+  .boton-primario{
+    background-color: #080937;
+    color: #080937; /* o cualquier otro color */
+    border: #080937;
+
+  }
+
+  .btn-blue {
+    background-color: blue;
+    color: white;
+    border: none;
+  }
+
+  .custom-navbar {
+  background-color: #080937; /* Cambia el color aquí */
+  }
+
+  #boton_discord{
+    background-color: 	#7289da;
+    border-color: #7289da;
+  }
+
+  #boton_google{
+    background-color: white;
+    color: #6b7280;
+    border-color: #e8eaed;
+  }
+
+  .row {
+    display: flex;
+    gap: 20px; /* Espacio entre columnas */
+  }
+  
+  .column1 {
+    flex: 1; /* Que cada una ocupe el mismo ancho */
+    padding: 70px;
+    font-size: 70px;
+    color:#f2f4f5;
+    font-family: "Audiowide", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+
+
+  
+
+  }
+
+  .column2 {
+    flex: 1; /* Que cada una ocupe el mismo ancho */
+    padding: 20px;
+    font-size: 70px;
+    display: flex;
+    flex-direction: column;     /* Para que los elementos sigan en columna */
+    align-items: center; 
+    justify-content: center;
+
+
+  
+
+  }
+  
+  .button {
+    background-color:#0A0A38;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: right;
+
+  }
+  
+  .registro {
+    background-color: #e6f0ff;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 8px;
+  }
+  

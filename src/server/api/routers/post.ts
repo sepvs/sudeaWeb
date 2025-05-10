@@ -34,8 +34,4 @@ export const postRouter = createTRPCRouter({
 
     return post ?? null;
   }),
-
-  getSecretMessage: protectedProcedure.query(() => {
-    return "you can now see this secret message!";
-  }),
 });

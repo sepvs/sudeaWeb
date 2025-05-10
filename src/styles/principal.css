@@ -1,0 +1,16 @@
+body{
+    background-color: #0A0A38;
+}
+
+.texto{
+
+    font-family: "Audiowide", sans-serif;
+    font-size: 70px;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.instrucciones{
+    color: #FFFFFF;
+    font-size: 25px;
+}
